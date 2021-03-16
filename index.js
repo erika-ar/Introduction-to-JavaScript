@@ -34,9 +34,13 @@ Do the following:
 
    HINT: no function required
 */
+let firstVar = 3;
+let secondVar = 2;
 
-
-
+if (firstVar < secondVar) {
+  firstVar = 3;
+  console.log(firstVar);
+}
 
 
 /*
@@ -49,7 +53,9 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+const year = '1999';
+parseInt(year);
+console.log(year);
 
 
 
@@ -61,10 +67,11 @@ Do the following:
    2. Receive the parameters: a and b
    3. Multiply a and b and return the answer
 */
+function multiply(a, b){
+  return a * b;
+}
+console.log(multiply(6,17));
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
 
 
 
